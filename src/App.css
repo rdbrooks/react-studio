@@ -1,9 +1,32 @@
 /* Add styling for your page here */
 
 .App {
+  display: flex;
+  gap: 5%;
+  margin: 10px;
+}
 
+p,
+h3,
+h4 {
+  margin-left: 10px;
 }
 
 .BakeryItem {
-  
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: lightblue;
+  width: 15%;
+  height: 25px;
+}
+
+button:hover {
+  background-color: lightskyblue;
 }
